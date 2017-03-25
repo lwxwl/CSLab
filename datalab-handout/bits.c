@@ -251,10 +251,10 @@ int tmin(void) {
  *   Rating: 2
  */
 int fitsBits(int x, int n) {
-  int shiftNumber= 32 + (~n + 1);// 32 - n
-  return !(x^((x<<shiftNumber)>>shiftNumber));
-   // 先左移32-n位，再右移32-n位，即保留最后n位数，再与x异或
-   // 若两者相同表示x可被表示为一个n位整数，！0为1
+    int c = ~n + 33;
+    int changedX = x << c;
+    int changedY = changedX>> c;
+    return !(changedY ^ x);
 }
 
 
@@ -352,13 +352,14 @@ int ilog2(int x) {
  *   Rating: 2
  */
 // 如果uf是NaN,返回NaN;否则，返回-f;
-// 只要后面32位中有一位不是0就是NaN
-// 首先判断是否是NaN,其次考虑规格化和非规格化的问题；
 unsigned float_neg(unsigned uf) {
-  if(~(((uf>>23)&0xFF)) || !(uf&((1<<23)-1))){
-  uf ^= (1<<31);
-}
-    return uf;
+    unsigned temp;
+    temp = uf ^ 0x80000000;
+    int t = uf & 0x7fffffff;
+    if(t > 0x7f800000){
+        return uf;
+    }
+    return temp;
 }
 
 
