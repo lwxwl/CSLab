@@ -14,9 +14,13 @@
 using namespace std;
 
 int gcd(int a, int b) {
-    // your code here
-    cout << "[recursion gcd called]" << endl;
-    return 0;
+    if(a%b == 0){
+        cout << "gcd(" << a << ", " << b << ") = " << b << endl;
+        return b;
+    }else{
+        cout << "gcd(" << a << ", " << b << ") = gcd(" << b << ", " << a % b << ")" << endl;
+        return gcd(b, a%b);
+    }
 }
 
 void serpinskii(GWindow &w, int leftX, int leftY, int size, int order) {
