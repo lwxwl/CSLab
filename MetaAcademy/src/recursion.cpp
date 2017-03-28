@@ -13,6 +13,11 @@
 #include "tokenscanner.h"
 using namespace std;
 
+double getHeight(double a, double b);
+void drawSerpinskiiTriangles(GWindow &w, double leftX, double leftY, double size, int order);
+void drawTriangle(GWindow &w, double leftX, double leftY, double size);
+
+
 int gcd(int a, int b) {
     if(a%b == 0){
         cout << "gcd(" << a << ", " << b << ") = " << b << endl;
@@ -23,9 +28,40 @@ int gcd(int a, int b) {
     }
 }
 
+
 void serpinskii(GWindow &w, int leftX, int leftY, int size, int order) {
-    // your code here
-    cout << "[recursion serpinskii called]" << endl;
+    double mleftX = leftX;
+    double mleftY = leftY;
+    double mSize = size;
+    drawSerpinskiiTriangles(w, mleftX, mleftY, mSize, order);
+}
+
+double getHeight(double c, double a) {
+    return sqrt(c * c - a * a);
+}
+
+void drawTriangle(GWindow &w, double leftX, double leftY, double size) {
+    double height = getHeight(size, size / 2);
+    double rightX = leftX + size;
+    double bottomY = leftY + height;
+    double bottomX = leftX + size/2;
+    w.drawLine(leftX, leftY, rightX, leftY); // draw top side
+    w.drawLine(leftX, leftY, bottomX, bottomY); // draw left side
+    w.drawLine(rightX, leftY, bottomX, bottomY); // draw right side
+}
+
+void drawSerpinskiiTriangles(GWindow &w, double leftX, double leftY, double size, double order)
+{
+    if(order == 0){
+        drawTriangle(w, leftX, leftY, size);
+    }else{
+        order--;
+        double halfSize = size/2;
+        double height = getHeight(halfSize, halfSize/2);
+        drawSerpinskiiTriangles(w, leftX, leftY, size, order);
+        drawSerpinskiiTriangles(w, leftX + halfSize, leftY, halfSize, order);
+        drawSerpinskiiTriangles(w, leftX + halfSize/2, leftY + height, halfSize, order);
+    }
 }
 
 int floodFill(GBufferedImage& image, int x, int y, int newColor) {
