@@ -20,6 +20,7 @@ double getHeight(double a, double b);
 void drawSerpinskiiTriangles(GWindow &w, double leftX, double leftY, double size, double order);
 void drawTriangle(GWindow &w, double leftX, double leftY, double size);
 int floodFill(GBufferedImage &image, int x, int y, int color);
+int doFloodFill(GBufferedImage &image, int x, int y, int newColor, int originalColor);
 void personalCurriculum(Map<string, Vector<string> > &prereqMap, string goal);
 string generate(Map<string, Vector<string> > &grammar, string symbol);
 
@@ -64,17 +65,37 @@ void drawTriangle(GWindow &w, double leftX, double leftY, double size) {
     double rightX = leftX + size;
     double bottomY = leftY + height;
     double bottomX = leftX + size/2;
-    w.drawLine(leftX, leftY, rightX, leftY); // draw top side
-    w.drawLine(leftX, leftY, bottomX, bottomY); // draw left side
-    w.drawLine(rightX, leftY, bottomX, bottomY); // draw right side
+    // draw top side
+    w.drawLine(leftX, leftY, rightX, leftY);
+    // draw left side
+    w.drawLine(leftX, leftY, bottomX, bottomY);
+     // draw right side
+    w.drawLine(rightX, leftY, bottomX, bottomY);
 }
 
 
 
 int floodFill(GBufferedImage& image, int x, int y, int newColor) {
-    // your code here
-    cout << "[recursion flood fill called]" << endl;
-    return 0;
+    int originalColor = image.getRGB(x, y);
+
+    if(originalColor == newColor){
+        return 0;
+    }
+   return doFloodFill(image, x, y, newColor, originalColor);
+}
+
+int doFloodFill(GBufferedImage& image, int x, int y, int newColor, int originalColor){
+    int number;
+
+    if (image.inBounds(x, y) && image.getRGB(x, y) == originalColor) {
+        image.setRGB(x, y, newColor);
+        number++;
+        doFloodFill(image, x+1, y, newColor, originalColor);
+        doFloodFill(image, x-1, y, newColor, originalColor);
+        doFloodFill(image, x, y+1, newColor, originalColor);
+        doFloodFill(image, x, y-1, newColor, originalColor);
+        }
+        return number;
 }
 
 void personalCurriculum(Map<string, Vector<string>> & prereqMap,string goal) {
