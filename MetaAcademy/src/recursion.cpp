@@ -11,12 +11,17 @@
 #include "gwindow.h"
 #include "gobjects.h"
 #include "tokenscanner.h"
+#include "random.h"
 using namespace std;
 
+int gcd(int a, int b);
+void serpinskii(GWindow &w, int leftX, int leftY, int size, int order);
 double getHeight(double a, double b);
-void drawSerpinskiiTriangles(GWindow &w, double leftX, double leftY, double size, int order);
+void drawSerpinskiiTriangles(GWindow &w, double leftX, double leftY, double size, double order);
 void drawTriangle(GWindow &w, double leftX, double leftY, double size);
-
+int floodFill(GBufferedImage &image, int x, int y, int color);
+void personalCurriculum(Map<string, Vector<string> > &prereqMap, string goal);
+string generate(Map<string, Vector<string> > &grammar, string symbol);
 
 int gcd(int a, int b) {
     if(a%b == 0){
@@ -36,8 +41,22 @@ void serpinskii(GWindow &w, int leftX, int leftY, int size, int order) {
     drawSerpinskiiTriangles(w, mleftX, mleftY, mSize, order);
 }
 
+// Get the height of a triangle
 double getHeight(double c, double a) {
     return sqrt(c * c - a * a);
+}
+
+void drawSerpinskiiTriangles(GWindow &w, double leftX, double leftY, double size, double order){
+    if(order == 0){
+        drawTriangle(w, leftX, leftY, size);
+    }else{
+        order--;
+        double halfSize = size/2;
+        double height = getHeight(halfSize, halfSize/2);
+        drawSerpinskiiTriangles(w, leftX, leftY, halfSize, order);
+        drawSerpinskiiTriangles(w, leftX + halfSize, leftY, halfSize, order);
+        drawSerpinskiiTriangles(w, leftX + halfSize/2, leftY + height, halfSize, order);
+    }
 }
 
 void drawTriangle(GWindow &w, double leftX, double leftY, double size) {
@@ -50,19 +69,7 @@ void drawTriangle(GWindow &w, double leftX, double leftY, double size) {
     w.drawLine(rightX, leftY, bottomX, bottomY); // draw right side
 }
 
-void drawSerpinskiiTriangles(GWindow &w, double leftX, double leftY, double size, double order)
-{
-    if(order == 0){
-        drawTriangle(w, leftX, leftY, size);
-    }else{
-        order--;
-        double halfSize = size/2;
-        double height = getHeight(halfSize, halfSize/2);
-        drawSerpinskiiTriangles(w, leftX, leftY, size, order);
-        drawSerpinskiiTriangles(w, leftX + halfSize, leftY, halfSize, order);
-        drawSerpinskiiTriangles(w, leftX + halfSize/2, leftY + height, halfSize, order);
-    }
-}
+
 
 int floodFill(GBufferedImage& image, int x, int y, int newColor) {
     // your code here
