@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="serafini_starter"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serafini_starter">
+				<Option output="/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/serafini_starter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 serafini_starter"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="serafini_starter/fast">
+				<Option output="/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/serafini_starter" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 serafini_starter/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/lwxwl/Desktop/serafini_starter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/base64.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/base64.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/basicgraph.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/basicgraph.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/bitstream.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/bitstream.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/compare.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/console.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/console.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/dawglexicon.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/dawglexicon.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/deque.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/direction.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/direction.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/error.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/error.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/exceptions.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/exceptions.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/filelib.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/filelib.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/foreach.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gbufferedimage.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gbufferedimage.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gevents.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gevents.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gfilechooser.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gfilechooser.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/ginteractors.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/ginteractors.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gmath.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gmath.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gobjects.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gobjects.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/goptionpane.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/goptionpane.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/graph.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/grid.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gtable.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gtable.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gtimer.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gtimer.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gtypes.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gtypes.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gwindow.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/gwindow.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/hashcode.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/hashcode.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/hashmap.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/hashset.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/lexicon.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/lexicon.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/linkedhashmap.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/linkedhashset.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/linkedlist.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/main.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/map.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/observable.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/observable.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/plainconsole.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/plainconsole.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/platform.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/platform.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/point.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/point.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/pqueue.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/private/foreachpatch.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/private/main.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/private/randompatch.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/private/tokenpatch.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/private/tplatform.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/private/version.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/queue.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/random.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/random.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/regexpr.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/regexpr.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/server.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/server.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/set.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/shuffle.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/shuffle.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/simpio.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/simpio.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/sound.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/sound.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/sparsegrid.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/stack.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/stacktrace/call_stack.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/stacktrace/call_stack_gcc.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/stacktrace/call_stack_windows.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/stacktrace/stack_exception.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/startup.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/strlib.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/strlib.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/timer.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/timer.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/tokenscanner.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/tokenscanner.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/urlstream.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/urlstream.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/vector.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/lib/StanfordCPPLib/version.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/Ngrams/src/ngrams.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/base64.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/base64.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/basicgraph.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/basicgraph.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/bitstream.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/bitstream.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/compare.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/console.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/console.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/dawglexicon.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/dawglexicon.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/deque.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/direction.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/direction.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/error.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/error.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/exceptions.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/exceptions.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/filelib.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/filelib.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/foreach.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gbufferedimage.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gbufferedimage.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gevents.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gevents.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gfilechooser.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gfilechooser.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/ginteractors.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/ginteractors.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gmath.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gmath.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gobjects.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gobjects.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/goptionpane.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/goptionpane.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/graph.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/grid.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gtable.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gtable.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gtimer.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gtimer.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gtypes.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gtypes.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gwindow.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/gwindow.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/hashcode.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/hashcode.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/hashmap.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/hashset.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/lexicon.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/lexicon.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/linkedhashmap.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/linkedhashset.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/linkedlist.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/main.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/map.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/observable.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/observable.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/plainconsole.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/plainconsole.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/platform.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/platform.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/point.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/point.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/pqueue.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/private/foreachpatch.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/private/main.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/private/randompatch.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/private/tokenpatch.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/private/tplatform.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/private/version.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/queue.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/random.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/random.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/regexpr.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/regexpr.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/server.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/server.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/set.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/shuffle.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/shuffle.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/simpio.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/simpio.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/sound.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/sound.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/sparsegrid.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/stack.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/stacktrace/call_stack.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/stacktrace/call_stack_gcc.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/stacktrace/call_stack_windows.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/stacktrace/stack_exception.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/startup.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/strlib.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/strlib.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/timer.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/timer.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/tokenscanner.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/tokenscanner.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/urlstream.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/urlstream.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/vector.h">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/lib/StanfordCPPLib/version.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/WordLadder/src/wordladder.cpp">
+			<Option target="serafini_starter"/>
+		</Unit>
+		<Unit filename="/Users/lwxwl/Desktop/serafini_starter/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

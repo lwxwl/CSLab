@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="" />
+    <option name="SERVER_URL" value="http://buildserver" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="SHOW_CLOSE_PROMPT" value="true" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+    <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="serafini_starter" targetName="serafini_starter" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97445eb7-2a0d-41e9-a9bf-81423acceece" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/AndroidStudioProjects/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/AndroidStudioProjects/.idea/runConfigurations.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/AndroidStudioProjects/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Library/Preferences/AndroidStudio2.2/options/fileEditorProviderManager.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Diary/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Diary/.idea/copyright/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Diary/.idea/gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Diary/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Diary/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Diary/.idea/runConfigurations.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Diary/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Diary/app/src/main/java/com/example/lwxwl/diary/Landing.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Diary/app/src/main/java/com/example/lwxwl/diary/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Diary/app/src/main/res/drawable/bg_rectangle_with_stroke_dash.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Diary/app/src/main/res/drawable/checkbox_style.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Diary/app/src/main/res/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Diary/app/src/main/res/layout/registered.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/androidTest/java/com/example/lwxwl/justtry/ExampleInstrumentedTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/JustTryApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/BaseActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/BaseDrawerActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/CircleTransformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/CommentsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/CommentsAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/FeedAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/FeedContextMenu.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/FeedContextMenuManager.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/FeedItemAnimator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/LoadingFeedItemView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/LoginActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/PhotoFiltersAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/PublishActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/RegisterActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/RevealBackgroundView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/RoundedTransformation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/SendCommentButton.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/SendingProgressView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/SquaredFrameLayout.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/SquaredImageView.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/UserProfileActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/UserProfileAdapter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/java/com/example/lwxwl/justtry/Utils.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/anim/error_shake.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/anim/slide_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/anim/slide_in_done.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/anim/slide_in_send.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/anim/slide_out.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/anim/slide_out_done.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/anim/slide_out_send.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable-xxhdpi/ic_book_white_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable-xxhdpi/ic_build_white_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable-xxhdpi/ic_global_menu_search.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable-xxhdpi/ic_help_white_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable-xxhdpi/ic_inbox_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable-xxhdpi/ic_menu_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable-xxhdpi/ic_perm_identity_white_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable-xxhdpi/ic_visibility_grey_600_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable-xxhdpi/ic_visibility_off_grey_600_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/bg_container_shadow.9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/bg_rectangle_with_stroke_dash.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/btn_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/btn_capture.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/btn_capture_options.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/btn_context_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/btn_feed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/btn_following.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/btn_send_comment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/checkbox_style.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/comment_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/floating_action_button.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_arrow_back_grey600_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_arrow_back_white_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_arrow_forward_grey600_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_arrow_forward_white_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_camera_rear_white_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_close.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_close_white_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_collections_white_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_comment_outline_grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_done_grey600_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_done_white_48dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_edit_white_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_feed_top.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_global_menu_feed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_global_menu_likes.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_grid_on_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_grid_on_white_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_heart_outline_grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_heart_outline_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_heart_red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_heart_small_blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_label_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_list_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_more_grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_place_white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/ic_videocam_white_24dp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/image_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/img_feed_bottom_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/img_feed_bottom_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/img_feed_center_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/img_filter_mock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/like_background.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/shape_gradient.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/switch_publish_direct.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/drawable/switch_publish_followers.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/activity_comments.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/activity_drawer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/activity_login.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/activity_publish.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/activity_register.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/activity_user_profile.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/item_comment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/item_feed.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/item_feed_loader.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/item_photo.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/item_photo_filter.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/menu_item_view.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/view_context_menu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/view_feed_toolbar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/view_global_menu_header.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/layout/view_send_comment_button.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/menu/menu_drawer.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/menu/menu_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/menu/menu_publish.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/mipmap-xhdpi/checkbox_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/mipmap-xhdpi/checkbox_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/mipmap-xhdpi/lock.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/mipmap-xhdpi/mail_box.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/mipmap-xhdpi/main_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/values-w820dp/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/values/colors.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/values/dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/values/strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/main/res/values/styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/app/src/test/java/com/example/lwxwl/justtry/ExampleUnitTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/gradle/wrapper/gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/gradle/wrapper/gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/gradlew" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../JustTry/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../MusicPlayer/app/src/main/java/com/example/lwxwl/musicplayer/MusicPlayer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/.idea/runConfigurations.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/app/src/main/java/com/example/lwxwl/timediary/CommentActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/app/src/main/java/com/example/lwxwl/timediary/LoginActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/app/src/main/java/com/example/lwxwl/timediary/SignupActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/app/src/main/java/com/example/lwxwl/timediary/ToolBarActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/app/src/main/res/drawable/bg_rectangle_with_stroke_dash.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/app/src/main/res/drawable/checkbox_style.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/app/src/main/res/layout/activity_toolbar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/app/src/main/res/layout/comment_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/app/src/main/res/layout/log_in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/app/src/main/res/layout/sign_up.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../TimeDiary/app/src/main/res/menu/toolbar_menu.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JustTry/.idea/misc.xml" afterPath="$PROJECT_DIR$/../JustTry/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JustTry/.idea/modules.xml" afterPath="$PROJECT_DIR$/../JustTry/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Library/Preferences/AndroidStudio2.2/options/find.recents.xml" afterPath="$USER_HOME$/Library/Preferences/AndroidStudio2.2/options/find.recents.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Library/Preferences/AndroidStudio2.2/options/other.xml" afterPath="$USER_HOME$/Library/Preferences/AndroidStudio2.2/options/other.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="wordladder.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WordLadder/src/wordladder.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1230">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Ngrams/src/ngrams.cpp" />
+        <option value="$PROJECT_DIR$/WordLadder/src/wordladder.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serafini_starter" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serafini_starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serafini_starter" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serafini_starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WordLadder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serafini_starter" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="serafini_starter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WordLadder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager" selected="Application.serafini_starter">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="serafini_starter" TARGET_NAME="serafini_starter" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="serafini_starter" TARGET_NAME="serafini_starter" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="serafini_starter" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="serafini_starter" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="serafini_starter" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="serafini_starter" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="serafini_starter" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="serafini_starter" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="serafini_starter" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="serafini_starter" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="serafini_starter" TARGET_NAME="serafini_starter" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="serafini_starter" RUN_TARGET_NAME="serafini_starter">
+      <envs />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.serafini_starter" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97445eb7-2a0d-41e9-a9bf-81423acceece" name="Default" comment="" />
+      <created>1488500572580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1488500572580</updated>
+      <workItem from="1488500577064" duration="497000" />
+      <workItem from="1488514867109" duration="10000" />
+      <workItem from="1488521368986" duration="10188000" />
+      <workItem from="1488606925177" duration="762000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11457000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WordLadder/src/wordladder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ngrams/src/ngrams.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ngrams/src/ngrams.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ngrams/src/ngrams.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordLadder/lib/StanfordCPPLib/stack.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="60" column="6" lean-forward="false" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3025">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordLadder/WordLadder.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4453">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordLadder/src/wordladder.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1230">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
