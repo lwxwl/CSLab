@@ -19,7 +19,6 @@ using namespace std;
 
 static const int STOP_NUMBER = 0;
 
-static void welcome();
 static void buildMapNgrams(ifstream& file, HashMap< Vector<string>, Vector<string> >& mapNgrams, const int& numberOfNgrams);
 static void readInFile(ifstream& file, Vector<string>& wordsInFile);
 static void addKeyValuesToMap(HashMap< Vector<string>, Vector<string> >& mapNgrams, const Vector<string> wordsInFile, const int numberOfNgrams);

@@ -22,7 +22,17 @@ void drawTriangle(GWindow &w, double leftX, double leftY, double size);
 int floodFill(GBufferedImage &image, int x, int y, int color);
 int doFloodFill(GBufferedImage &image, int x, int y, int newColor, int originalColor);
 void personalCurriculum(Map<string, Vector<string> > &prereqMap, string goal);
+void doCurriculum(Map<string, Vector<string> > &prereqMap, string goal, Set<string> &printed);
 string generate(Map<string, Vector<string> > &grammar, string symbol);
+string getRandom(Vector<string> vector);
+void doGenerate(Map<string, Vector<string> > &grammar, string symbol, string &sentence);
+
+
+/**                            *
+ * --------------------------- *
+ * Greatest Common Denominator *
+ * --------------------------- *
+ *                            **/
 
 int gcd(int a, int b) {
     if(a%b == 0){
@@ -35,12 +45,24 @@ int gcd(int a, int b) {
 }
 
 
+/**                     *
+ *  ------------------  *
+ *  Serpinskii Fractal  *
+ *  ------------------  *
+ *                     **/
+
+/* If the order of the serpinskii triangle is 1, draw the triangle straightly;
+ * Otherwise, execute serpinskii() for order (n-1) for each of the three triangles
+ * that composes that n-ordered triangle.
+ */
+
 void serpinskii(GWindow &w, int leftX, int leftY, int size, int order) {
-    double mleftX = leftX;
-    double mleftY = leftY;
-    double mSize = size;
-    drawSerpinskiiTriangles(w, mleftX, mleftY, mSize, order);
+        double mleftX = leftX;
+        double mleftY = leftY;
+        double mSize = size;
+        drawSerpinskiiTriangles(w, mleftX, mleftY, mSize, order);
 }
+
 
 // Get the height of a triangle
 double getHeight(double c, double a) {
@@ -48,33 +70,40 @@ double getHeight(double c, double a) {
 }
 
 void drawSerpinskiiTriangles(GWindow &w, double leftX, double leftY, double size, double order){
-    if(order == 0){
-        drawTriangle(w, leftX, leftY, size);
-    }else{
-        order--;
-        double halfSize = size/2;
-        double height = getHeight(halfSize, halfSize/2);
-        drawSerpinskiiTriangles(w, leftX, leftY, halfSize, order);
-        drawSerpinskiiTriangles(w, leftX + halfSize, leftY, halfSize, order);
-        drawSerpinskiiTriangles(w, leftX + halfSize/2, leftY + height, halfSize, order);
-    }
+   if(order == 0){
+       drawTriangle(w, leftX, leftY, size);
+   }else{
+       order--;
+       double halfSize = size/2;
+       double height = getHeight(halfSize, halfSize/2);
+       drawSerpinskiiTriangles(w, leftX, leftY, halfSize, order);
+       drawSerpinskiiTriangles(w, leftX + halfSize, leftY, halfSize, order);
+       drawSerpinskiiTriangles(w, leftX + halfSize/2, leftY + height, halfSize, order);
+   }
 }
 
 void drawTriangle(GWindow &w, double leftX, double leftY, double size) {
-    double height = getHeight(size, size / 2);
-    double rightX = leftX + size;
-    double bottomY = leftY + height;
-    double bottomX = leftX + size/2;
-    // draw top side
-    w.drawLine(leftX, leftY, rightX, leftY);
-    // draw left side
-    w.drawLine(leftX, leftY, bottomX, bottomY);
-     // draw right side
-    w.drawLine(rightX, leftY, bottomX, bottomY);
+   double height = getHeight(size, size / 2);
+   double rightX = leftX + size;
+   double bottomY = leftY + height;
+   double bottomX = leftX + size/2;
+   // draw top side
+   w.drawLine(leftX, leftY, rightX, leftY);
+   // draw left side
+   w.drawLine(leftX, leftY, bottomX, bottomY);
+   // draw right side
+   w.drawLine(rightX, leftY, bottomX, bottomY);
 }
 
 
 
+/**   ----------    *
+ *    Flood Fill    *
+ *    ----------   **/
+
+/* Go through all of the adjacent pixels of a given color and change them to the new color indicated;
+ * Return the number of pixels changed.
+ */
 int floodFill(GBufferedImage& image, int x, int y, int newColor) {
     int originalColor = image.getRGB(x, y);
 
@@ -98,13 +127,58 @@ int doFloodFill(GBufferedImage& image, int x, int y, int newColor, int originalC
         return number;
 }
 
+
+/**                          *
+ *  -----------------------  *
+ *  Personalized Curriculum  *
+ *  -----------------------  *
+ *                          **/
+
 void personalCurriculum(Map<string, Vector<string>> & prereqMap,string goal) {
-    // your code here
-    cout << "[recursion personal curriculum called]" << endl;
+    Set<string> printed;
+    doCurriculum(prereqMap, goal, printed);
 }
 
+void doCurriculum(Map<string, Vector<string> > & prereqMap, string goal, Set<string> & printed){
+    if(prereqMap.containsKey(goal)){
+        for(string item: prereqMap[goal]){
+            doCurriculum(prereqMap, item, printed);
+        }
+    }
+    if(!printed.contains(goal)){
+        cout << goal << endl;
+        printed.add(goal);
+    }
+}
+
+
+
+/**                    *
+ *  -----------------  *
+ *  Generate Question  *
+ *  -----------------  *
+ *                    **/
+
 string generate(Map<string, Vector<string> > & grammar, string symbol) {
-    // your code here
-    cout << "[recursion generate called]" << endl;
-    return "";
+    string sentence;
+    doGenerate(grammar, symbol, sentence);
+    return sentence;
+}
+
+string getRandom(Vector<string> vector){
+    int index = randomInteger(0,vector.size() - 1);
+    return vector[index];
+}
+
+void doGenerate(Map<string, Vector<string> > & grammar, string symbol, string & sentence){
+    if(!grammar.containsKey(symbol)){
+        sentence += symbol;
+    }else{
+        string nextOption = getRandom(grammar[symbol]);
+        TokenScanner scanner(nextOption);
+        while(scanner.hasMoreTokens()){
+            string nextSymbol = scanner.nextToken();
+            doGenerate(grammar, nextSymbol, sentence);
+        }
+    }
 }
