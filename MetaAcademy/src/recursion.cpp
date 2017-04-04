@@ -24,8 +24,7 @@ int doFloodFill(GBufferedImage &image, int x, int y, int newColor, int originalC
 void personalCurriculum(Map<string, Vector<string> > &prereqMap, string goal);
 void doCurriculum(Map<string, Vector<string> > &prereqMap, string goal, Set<string> &printed);
 string generate(Map<string, Vector<string> > &grammar, string symbol);
-string getRandom(Vector<string> vector);
-void doGenerate(Map<string, Vector<string> > &grammar, string symbol, string &sentence);
+
 
 
 /**                            *
@@ -161,25 +160,21 @@ void doCurriculum(Map<string, Vector<string> > & prereqMap, string goal, Set<str
 
 string generate(Map<string, Vector<string> > & grammar, string symbol) {
     string sentence;
-    doGenerate(grammar, symbol, sentence);
+    Vector <string> vector;
+    if(grammar.containsKey(symbol)){
+        vector = grammar.get(symbol);
+        int index = randomInteger(0,vector.size() - 1);
+        string nextOption = vector.get(index);
+        TokenScanner tokenScanner(nextOption);
+        while (tokenScanner.hasMoreTokens()) {
+            string newToken = tokenScanner.nextToken();
+            sentence += generate(grammar,newToken);
+        }
+    }else{
+        sentence += symbol;
+    }
+
     return sentence;
 }
 
-// Get a random string from a vector of strings.
-string getRandom(Vector<string> vector){
-    int index = randomInteger(0,vector.size() - 1);
-    return vector[index];
-}
 
-void doGenerate(Map<string, Vector<string> > & grammar, string symbol, string & sentence){
-    if(!grammar.containsKey(symbol)){
-        sentence += symbol;
-    }else{
-        string nextOption = getRandom(grammar[symbol]);
-        TokenScanner scanner(nextOption);
-        while(scanner.hasMoreTokens()){
-            string nextSymbol = scanner.nextToken();
-            doGenerate(grammar, nextSymbol, sentence);
-        }
-    }
-}
