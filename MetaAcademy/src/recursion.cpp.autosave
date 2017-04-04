@@ -168,7 +168,8 @@ string generate(Map<string, Vector<string> > & grammar, string symbol) {
 // Get a random string from a vector of strings.
 string getRandom(Vector<string> vector){
     int index = randomInteger(0,vector.size() - 1);
-    return vector[index];
+    string i = vector[index];
+    return i;
 }
 
 void doGenerate(Map<string, Vector<string> > & grammar, string symbol, string & sentence){
